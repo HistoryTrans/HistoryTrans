@@ -1,3 +1,10 @@
+# macOS的忽略文件
+.DS_Store
+.AppleDouble
+
+# vscode的忽略文件
+.vscode/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

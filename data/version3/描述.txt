@@ -1,0 +1,27 @@
+# 使用示例：
+file_list = [
+             r'/Users/timvan/Desktop/xm/trans_ancient_chn/data/raw/北齐/json/列传.json', 
+             r'/Users/timvan/Desktop/xm/trans_ancient_chn/data/raw/周书/json/周书.json', 
+             r'/Users/timvan/Desktop/xm/trans_ancient_chn/data/raw/隋书/json/帝纪.json', 
+             r'/Users/timvan/Desktop/xm/trans_ancient_chn/data/raw/隋书/json/列传.json', 
+             r'/Users/timvan/Desktop/xm/trans_ancient_chn/data/raw/南史/json/南史.json', 
+             r'/Users/timvan/Desktop/xm/trans_ancient_chn/data/raw/北史/json/本纪.json', 
+             r'/Users/timvan/Desktop/xm/trans_ancient_chn/data/raw/北史/json/列传.json', 
+             r'/Users/timvan/Desktop/xm/trans_ancient_chn/data/raw/旧唐书卷/json/本纪.json', 
+             r'/Users/timvan/Desktop/xm/trans_ancient_chn/data/raw/旧唐书卷/json/列传.json', 
+             r'/Users/timvan/Desktop/xm/trans_ancient_chn/data/raw/新唐书卷/json/列传.json', 
+             r'/Users/timvan/Desktop/xm/trans_ancient_chn/data/raw/旧五代史/json/旧五代史.json', 
+             r'/Users/timvan/Desktop/xm/trans_ancient_chn/data/raw/新五代史/json/新五代史.json', 
+             r'/Users/timvan/Desktop/xm/trans_ancient_chn/data/raw/宋史/json/本纪.json', 
+             r'/Users/timvan/Desktop/xm/trans_ancient_chn/data/raw/宋史/json/列传.json', 
+             r'/Users/timvan/Desktop/xm/trans_ancient_chn/data/raw/辽史/json/列传.json', 
+             r'/Users/timvan/Desktop/xm/trans_ancient_chn/data/raw/金史/json/列传.json', 
+             r'/Users/timvan/Desktop/xm/trans_ancient_chn/data/raw/元史/json/本纪.json', 
+             r'/Users/timvan/Desktop/xm/trans_ancient_chn/data/raw/元史/json/列传.json', 
+             r'/Users/timvan/Desktop/xm/trans_ancient_chn/data/raw/明史/json/本纪.json', 
+             r'/Users/timvan/Desktop/xm/trans_ancient_chn/data/raw/明史/json/列传.json', 
+             r'/Users/timvan/Desktop/xm/trans_ancient_chn/data/raw/清史稿/清史稿.json']
+merge_multiple_files(file_list, './merged_output')
+
+
+合并完成，共4705条数据

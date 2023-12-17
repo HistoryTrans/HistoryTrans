@@ -1,6 +1,9 @@
+eval/data/eval_results
+
 # macOS的忽略文件
 .DS_Store
 .AppleDouble
+__MACOSX
 
 # vscode的忽略文件
 .vscode/

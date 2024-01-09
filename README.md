@@ -4,6 +4,8 @@
 
 HistoryTrans 项目致力于创建和改进古文翻译的数据集。我们结合手动收集的数据和已有的公开数据集，通过严格的数据预处理和质量控制，确保数据集的高标准和实用性。本项目特别强调使用 chatglm3 对数据进行微调，从而提高翻译质量。
 
+数据集下载地址：[HuggingFace-HistoryTrans](https://huggingface.co/datasets/HistoryTrans/Dataset)
+
 ## 目录结构
 
 ```text

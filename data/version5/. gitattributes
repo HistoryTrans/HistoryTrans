@@ -1,0 +1,5 @@
+*.jsonl filter=lfs diff=lfs merge=lfs -text
+
+# 追踪所有 CSV 和 JSON 文件
+*.csv filter=lfs diff=lfs merge=lfs -text
+*.json filter=lfs diff=lfs merge=lfs -text
